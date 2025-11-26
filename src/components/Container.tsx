@@ -1,3 +1,10 @@
+import Header from "./Header";
+
 export default function Container() {
-  return <div>Container</div>;
+  return (
+    <main className="container">
+      <Header />
+      <FeedbackList />
+    </main>
+  );
 }
