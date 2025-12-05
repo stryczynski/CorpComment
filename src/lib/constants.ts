@@ -1,0 +1,3 @@
+const MAX_CHARACTERS = 150;
+
+export { MAX_CHARACTERS };
